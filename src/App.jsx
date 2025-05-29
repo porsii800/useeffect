@@ -1,6 +1,6 @@
-import { Exemplo1 } from "./components/Exemplo1";
-import { Exemplo2 } from "./components/Exemplo2";
-import { Header } from "./components/Header";
+import { Header } from "./Header.jsx"
+import { Exemplo1 } from "./Exemplo1.jsx"
+import { Exemplo2 } from "./Exemplo2.jsx"
 
 export function App () {
   return (
