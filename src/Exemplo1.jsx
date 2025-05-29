@@ -4,7 +4,7 @@ export function Exemplo1(){
     const [numero, setNumero] = useState (0)
 
     useEffect (() => {
-        HTMLFormControlsCollection.log("O numero mudou!")
+        console.log("O numero mudou!")
     }, [numero])
 
     return (
